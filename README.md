@@ -1,35 +1,43 @@
-# fyle_Assignment
-Assignment
-# Angular SPA Assignment
+# Fyle Frontend Challenge
 
-This repository contains the Angular single-page application (SPA) developed as part of the Fyle internship challenge.
+## Who is this for?
 
-## Getting Started
+This challenge is meant for candidates who wish to intern at Fyle and work with our engineering team. The candidate should be able to commit to at least 6 months of dedicated time for internship.
 
-To run the application locally, follow these steps:
+## Why work at Fyle?
 
-1. Install Node.js and npm if not already installed.
-2. Clone this repository to your local machine.
-3. Navigate to the project directory and run `npm install` to install dependencies.
-4. Run `ng serve` to start the development server.
-5. Open your browser and navigate to `http://localhost:4200` to view the application.
+Fyle is a fast-growing Expense Management SaaS product. We are ~40 strong engineering team at the moment. 
 
-## Unit Tests
+We are an extremely transparent organization. Check out our [careers page](https://careers.fylehq.com) that will give you a glimpse of what it is like to work at Fyle. Also, check out our Glassdoor reviews [here](https://www.glassdoor.co.in/Reviews/Fyle-Reviews-E1723235.htm). You can read stories from our teammates [here](https://stories.fylehq.com).
 
-The project includes unit tests for the `AppComponent` and `ApiService`.
+## Challenge outline
 
-To run the tests, execute the following command:
+This challenge involves implementing application using github api. 
 
-ng test
+The services that you need to use are already implemented - check out ApiService.
 
+You can see details of this challenge [here](https://fyleuniverse.notion.site/fyleuniverse/Fyle-Frontend-development-challenge-cb5085e5e0864e769e7b98c694400aaa)
 
-This will run the tests using Jasmine and Karma and display the test results in the terminal.
+__Note__ - This challenge is in angular. We work on angular frameworks & after you join we expect the same from you. Hence it is required to complete this assignement in angular itself.
 
-## Hosting the SPA
+## What happens next?
 
-The application is hosted on [Netlify](https://www.netlify.com/). You can access the live demo [here](https://example.com).
+You will hear back within 48 hours from us via email.
 
-## Caching API Calls
+## Installation
 
-The `ApiService` includes caching logic to cache GET requests to external APIs. Caching is implemented using local storage to improve performance and reduce redundant API calls.
+1. Fork this repository to your github account.
+2. Clone the forked repository and proceed with steps mentioned below.
 
+### Install requirements
+* Install angular cli [Ref](https://angular.io/cli)
+* `npm install` in this repository 
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+
+## Further help
+
+Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
+Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
